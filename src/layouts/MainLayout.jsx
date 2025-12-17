@@ -5,15 +5,13 @@ import Products from "../Components/Products";
 import Testimonials from "../Components/Testimonials";
 import Footer from "../Components/Footer";
 import NextSection from "../Components/NextSection";
+import Home from "../Home/Home";
 
 const MainLayout = () => {
   return (
     <>
-      <Navbar />
-      <Hero></Hero>
-      <Outlet />
-      <Testimonials></Testimonials>
-      <Footer></Footer>
+    <div className="bg-gray-100"><Home></Home></div>
+      
     </>
   );
 };
